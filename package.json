@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "antdv components wrapper for formily",
   "main": "index.js",
+  "types": "lib/index.d.ts",
   "browser": "lib/index.ts",
   "scripts": {
     "test": "jest --no-cache"
@@ -35,7 +36,11 @@
     "ant-design-vue": "^2.2.8",
     "jest": "^27.2.5",
     "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-dts": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-vue": "^6.0.0",
     "ts-jest": "^27.0.5",
     "vue": "^3.2.20"
   }
